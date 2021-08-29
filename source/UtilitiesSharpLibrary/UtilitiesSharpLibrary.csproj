@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>netstandard2.1;net472</TargetFrameworks>
+    <Authors>Andreas Reitberger</Authors>
+    <Company>Andreas Reitberger</Company>
+    <Copyright>Andreas Reitberger</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A simple library holding useful and recurring functions.</Description>
+    <RootNamespace>AndreasReitberger</RootNamespace>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Threading.Channels" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
