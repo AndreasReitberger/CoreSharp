@@ -1,13 +1,9 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
-namespace AndreasReitberger.Utilities
+﻿namespace AndreasReitberger.Core.Utilities
 {
-    [SuppressMessage("ReSharper", "InconsistentNaming")]
     public static class RegexHelper
     {
 
         #region LexOffice
-        //public const string LexOfficeAccessToken = @"^((\w{8}(-\w{4}){3})-(\w{12}))$";
         public const string LexOfficeAccessToken = @"(^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{12})$)";
         public const string SevDeskAccessToken = @"(^([a-z0-9])\w+$)";
         #endregion
@@ -17,7 +13,6 @@ namespace AndreasReitberger.Utilities
         #endregion
 
         #region RepetierServerPro
-        // Repetier Server Pro API Key
         public const string RepetierServerProApiKey = @"(\w{8}-\w{4}-\w{4}-\w{4}-\w{12})";
         #endregion
 

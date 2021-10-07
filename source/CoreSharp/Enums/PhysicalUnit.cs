@@ -1,4 +1,4 @@
-﻿namespace AndreasReitberger.Enums
+﻿namespace AndreasReitberger.Core.Enums
 {
     public enum PhysicalUnit
     {

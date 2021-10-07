@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public static class MathHelper
     {

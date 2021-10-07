@@ -1,4 +1,4 @@
-﻿namespace AndreasReitberger.Models
+﻿namespace AndreasReitberger.Core.Models
 {
     public class ChartItem
     {
@@ -8,10 +8,7 @@
         #endregion
 
         #region Constructor
-        public ChartItem()
-        {
-
-        }
+        public ChartItem() { }
         public ChartItem(string name, double value)
         {
             Name = name;

@@ -1,7 +1,7 @@
-﻿using AndreasReitberger.Enums;
+﻿using AndreasReitberger.Core.Enums;
 using System.Collections.Generic;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public class PhysicalUnitFactorConverter
     {

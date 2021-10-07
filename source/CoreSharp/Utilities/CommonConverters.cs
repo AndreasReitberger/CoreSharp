@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public static class CommonConverters
     {

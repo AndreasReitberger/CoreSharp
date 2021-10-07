@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Channels;
+﻿using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public static class ChannelHelper
     {

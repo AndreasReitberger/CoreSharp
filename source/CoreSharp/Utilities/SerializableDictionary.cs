@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     /// Source: https://weblogs.asp.net/pwelter34/444961
     /// <summary>

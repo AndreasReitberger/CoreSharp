@@ -2,13 +2,13 @@
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public static class SecureStringHelper
     {
         public static string ConvertToString(SecureString secureString)
         {
-            var valuePtr = IntPtr.Zero;
+            IntPtr valuePtr = IntPtr.Zero;
             try
             {
                 valuePtr = Marshal.SecureStringToGlobalAllocUnicode(secureString);

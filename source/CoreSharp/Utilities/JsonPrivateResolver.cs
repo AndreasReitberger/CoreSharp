@@ -2,17 +2,17 @@
 using Newtonsoft.Json.Serialization;
 using System.Reflection;
 
-namespace AndreasReitberger.Utilities
+namespace AndreasReitberger.Core.Utilities
 {
     public class JsonPrivateResolver : DefaultContractResolver
     {
         protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
         {
-            var prop = base.CreateProperty(member, memberSerialization);
+            JsonProperty prop = base.CreateProperty(member, memberSerialization);
             if (!prop.Writable)
             {
-                var property = member as PropertyInfo;
-                var hasPrivateSetter = property?.GetSetMethod(true) != null;
+                PropertyInfo property = member as PropertyInfo;
+                bool hasPrivateSetter = property?.GetSetMethod(true) != null;
                 prop.Writable = hasPrivateSetter;
             }
             return prop;
