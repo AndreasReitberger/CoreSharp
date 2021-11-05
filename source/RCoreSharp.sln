@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1340
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSharp", "CoreSharp\CoreSharp.csproj", "{4CECC30F-E3F9-4F56-A435-B4523542338B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RCoreSharp", "CoreSharp\RCoreSharp.csproj", "{4CECC30F-E3F9-4F56-A435-B4523542338B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

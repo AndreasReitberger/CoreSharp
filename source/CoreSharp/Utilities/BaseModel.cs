@@ -24,7 +24,7 @@ namespace AndreasReitberger.Core.Utilities
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
-            var changed = PropertyChanged;
+            PropertyChangedEventHandler changed = PropertyChanged;
             if (changed == null)
                 return;
 
@@ -35,7 +35,7 @@ namespace AndreasReitberger.Core.Utilities
         #region ICloneable
         public object Clone()
         {
-            return this.MemberwiseClone();
+            return MemberwiseClone();
         }
         #endregion
     }

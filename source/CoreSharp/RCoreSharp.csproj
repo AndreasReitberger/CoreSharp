@@ -8,13 +8,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A simple library holding useful and recurring functions.</Description>
     <RootNamespace>AndreasReitberger.Core</RootNamespace>
-    <Version>1.0.3</Version>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
-    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
     <RepositoryUrl>https://github.com/AndreasReitberger/CoreSharp</RepositoryUrl>
     <PackageTags>Core, Library, Sharp</PackageTags>
     <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/AndreasReitberger/CoreSharp</PackageProjectUrl>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
