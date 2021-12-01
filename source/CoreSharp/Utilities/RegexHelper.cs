@@ -3,9 +3,9 @@
     public static class RegexHelper
     {
 
-        #region LexOffice
-        public const string LexOfficeAccessToken = @"(^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{12})$)";
-        public const string SevDeskAccessToken = @"(^([a-z0-9])\w+$)";
+        #region LexOffice & SevDesk
+        public const string LexOfficeAccessToken = @"(^[a-zA-Z0-9]*)"; //@"(^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{12})$)";
+        public const string SevDeskAccessToken = @"(^[a-zA-Z0-9]*)"; //@"(^([a-z0-9])\w+$)";
         #endregion
 
         #region OctoPrint
