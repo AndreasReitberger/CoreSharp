@@ -16,7 +16,7 @@
     <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/AndreasReitberger/CoreSharp</PackageProjectUrl>
     <LangVersion>9.0</LangVersion>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
