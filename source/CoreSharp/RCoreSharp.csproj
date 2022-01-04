@@ -8,9 +8,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A simple library holding useful and recurring functions.</Description>
     <RootNamespace>AndreasReitberger.Core</RootNamespace>
-    <Version>1.0.6</Version>
-    <AssemblyVersion>1.0.6.0</AssemblyVersion>
-    <FileVersion>1.0.6.0</FileVersion>
+    <Version>1.0.7</Version>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
+    <FileVersion>1.0.7.0</FileVersion>
     <RepositoryUrl>https://github.com/AndreasReitberger/CoreSharp</RepositoryUrl>
     <PackageTags>Core, Library, Sharp</PackageTags>
     <RepositoryType>GitHub</RepositoryType>
@@ -18,11 +18,13 @@
     <LangVersion>9.0</LangVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="System.Threading.Channels" Version="5.0.0" />
+    <PackageReference Include="System.Threading.Channels" Version="6.0.0" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
