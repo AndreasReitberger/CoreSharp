@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFrameworks>netstandard2.1;net472</TargetFrameworks>
+	<TargetFrameworks>netstandard2.1;net472;net6</TargetFrameworks>
     <Authors>Andreas Reitberger</Authors>
     <Company>Andreas Reitberger</Company>
     <Copyright>Andreas Reitberger</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A simple library holding useful and recurring functions.</Description>
     <RootNamespace>AndreasReitberger.Core</RootNamespace>
-    <Version>1.0.7</Version>
-    <AssemblyVersion>1.0.7.0</AssemblyVersion>
-    <FileVersion>1.0.7.0</FileVersion>
+    <Version>1.0.8</Version>
+    <AssemblyVersion>1.0.8.0</AssemblyVersion>
+    <FileVersion>1.0.8.0</FileVersion>
     <RepositoryUrl>https://github.com/AndreasReitberger/CoreSharp</RepositoryUrl>
     <PackageTags>Core, Library, Sharp</PackageTags>
     <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/AndreasReitberger/CoreSharp</PackageProjectUrl>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>10.0</LangVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
