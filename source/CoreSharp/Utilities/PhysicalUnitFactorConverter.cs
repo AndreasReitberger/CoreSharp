@@ -14,7 +14,7 @@ namespace AndreasReitberger.Core.Utilities
             {PhysicalUnit.ml, 1 },
             {PhysicalUnit.l, 1000 },
         };
-        public static double getUnitFactor(PhysicalUnit unit)
+        public static double GetUnitFactor(PhysicalUnit unit)
         {
             if (UnitFactors.ContainsKey(unit))
                 return UnitFactors[unit];

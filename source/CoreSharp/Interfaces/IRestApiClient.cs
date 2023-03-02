@@ -15,7 +15,7 @@ namespace AndreasReitberger.Core.Interfaces
         public string ServerAddress { get; set; }
         public bool IsSecure { get; set; }
         public bool LoginRequired { get; set; }
-        public string API { get; set; }
+        public string ApiKey { get; set; }
         public int Port { get; set; }
         public bool IsOnline { get; set; }
         public bool IsConnecting { get; set; }
