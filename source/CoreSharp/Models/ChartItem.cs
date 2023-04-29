@@ -1,10 +1,15 @@
-﻿namespace AndreasReitberger.Core.Models
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace AndreasReitberger.Core.Models
 {
-    public class ChartItem
+    public partial class ChartItem : ObservableObject
     {
         #region Properties
-        public string Name { get; set; }
-        public double Value { get; set; }
+        [ObservableProperty]
+        string name;
+
+        [ObservableProperty]
+        double value;
         #endregion
 
         #region Constructor
