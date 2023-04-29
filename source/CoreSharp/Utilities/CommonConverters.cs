@@ -8,7 +8,7 @@ namespace AndreasReitberger.Core.Utilities
     {
         public static List<string> DictionaryToStringList(Dictionary<string, List<string>> dict)
         {
-            List<string> list = new List<string>();
+            List<string> list = new();
             if (dict == null) return list;
             foreach (KeyValuePair<string, List<string>> pairs in dict)
             {
