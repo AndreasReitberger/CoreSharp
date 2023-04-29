@@ -5,14 +5,14 @@ namespace AndreasReitberger.Core.Utilities
 {
     public class PhysicalUnitFactorConverter
     {
-        public static Dictionary<PhysicalUnit, double> UnitFactors = new Dictionary<PhysicalUnit, double>()
+        public static Dictionary<PhysicalUnit, double> UnitFactors = new()
         {
-            {PhysicalUnit.g, 1 },
-            {PhysicalUnit.kg, 1000 },
-            {PhysicalUnit.T, 1000000 },
-            {PhysicalUnit.cl, 0.1f },
-            {PhysicalUnit.ml, 1 },
-            {PhysicalUnit.l, 1000 },
+            {PhysicalUnit.Gram, 1 },
+            {PhysicalUnit.KiloGram, 1000 },
+            {PhysicalUnit.Ton, 1000000 },
+            {PhysicalUnit.CentiLiters, 0.1f },
+            {PhysicalUnit.MiliLiters, 1 },
+            {PhysicalUnit.Liters, 1000 },
         };
         public static double GetUnitFactor(PhysicalUnit unit)
         {

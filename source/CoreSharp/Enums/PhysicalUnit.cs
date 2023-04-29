@@ -2,11 +2,11 @@
 {
     public enum PhysicalUnit
     {
-        g,
-        kg,
-        T,
-        cl,
-        ml,
-        l,
+        Gram,
+        KiloGram,
+        Ton,
+        CentiLiters,
+        MiliLiters,
+        Liters,
     }
 }
